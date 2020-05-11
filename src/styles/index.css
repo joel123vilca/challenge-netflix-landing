@@ -1,3 +1,107 @@
-body {
-  background-color: gray;
+:root {
+  --button-color: #e50914;
+  --title-color: white;
+}
+
+
+.header{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: #000000;
+}
+.img-header{
+  object-fit: cover;
+  height: 700px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(black, white,black);
+}
+.img-gradient{
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.logo{
+  color: var(--button-color);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 24px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.btn-login {   
+  height: 20px;
+  font-family: verdana, arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 0.35rem;
+  padding: 4px 8px;
+  background-color:var(--button-color);
+  color: var(--title-color);
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 3px;
+}
+.header-content{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-login:link,
+.btn-login:visited {
+  border-top: 1px solid #cccccc;
+  border-bottom: 2px solid #666666;
+  border-left: 1px solid #cccccc;
+  border-right: 2px solid #666666;
+}
+.btn-login:hover {
+  border-bottom: 1px solid #cccccc;
+  border-top: 2px solid #666666;
+  border-right: 1px solid #cccccc;
+  border-left: 2px solid #666666;
+}
+.title{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 24px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+  color: var(--title-color);
+}
+.subtitle{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 500; 
+  line-height: 20.4px;
+  color: var(--title-color);
+}
+.input-email{
+  font-size: 16px;
+  border-radius: 2px;
+  color: #000000;
+  height: 48px;
+  padding: 10px 10px 0;
+  width: 355px;
+  border: solid 1px #666666;
+}
+.btn-link{
+  height: 44px;
+  width: 182px;
+  color: var(--title-color);
+  background-color: var(--button-color);
+  font-size: 16px;
+  margin-top: 1rem;
+  font-weight: normal;
+  padding: 4px 8px;
+  border-color: var(--button-color);
 }
