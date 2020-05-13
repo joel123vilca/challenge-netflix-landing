@@ -138,3 +138,61 @@ section{
   top:48px;
   position: relative;
 }
+.div-image-iphone-content{
+  height: 200px;
+}
+.div-border-dowload{
+  border: solid 2px gray;
+  background-color: black;
+  width: 268px;
+  height: 67px;
+  top:320px;
+  margin-left: 70px;
+  position: absolute;
+  border-radius: 10px;
+  font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.text-1{
+  color: white;
+  margin-top: 10px;
+  align-self: start;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-left: -10px;
+}
+.text-2{
+  padding: 5px 5px 5px 5px;
+  color: #0071eb;
+    font-size: 0.75em;
+    font-weight: normal;
+    margin-left: -30px;
+    align-self: start;
+
+}
+.download-content{
+  width: 80px;
+  height: 40px;
+}
+.download-icon{
+  width: 80%;
+  margin-top:-50px;
+  margin-left: 190px;
+}
+.boxshot-content{
+  width: 80px;
+  height: 0px;
+}
+.boxshot-img{
+  width: 50%;
+  margin-top:3px;
+  margin-left: 0px;
+}
+.img-secction-two{
+  max-width: 85%;
+  height: auto;
+  top:148px;
+  margin-left: -175px;
+  position: absolute;
+  align-self:center;
+}
