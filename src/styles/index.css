@@ -4,6 +4,7 @@
 }
 body{
  width: 100%;
+ background-color: black;
 }
 section{
   background-color: black;
@@ -13,12 +14,17 @@ section{
   border-bottom: 8px solid #222;
   display: block
 }
+footer{
+  background-color: black;
+  position: relative;
+}
 .header{
     width: 100%;
     position: relative;
     display: inline-block;
     text-align: center;
     background-color: #000000;
+    border-bottom: 8px solid #222;
 }
 .img-header{
   object-fit: cover;
@@ -195,4 +201,45 @@ section{
   margin-left: -175px;
   position: absolute;
   align-self:center;
+}
+
+.div-video-computer{
+  width: 218px;
+  height: 153px;
+  top:18px;
+  margin-left: 20px;
+  position: relative;
+}
+.footer-title{
+  margin-top: 20px;
+  padding-inline-start: 40px;
+  font-size: 1em;
+  color: #757575;
+  text-align: start;
+  font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+li{
+  list-style: none;
+  margin-left: 20px;
+  font-size: 1em;
+  color: #757575;
+  text-align: start;
+  font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 35%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
