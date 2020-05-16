@@ -220,8 +220,9 @@ footer{
 }
 li{
   list-style: none;
-  margin-left: 20px;
-  font-size: 1em;
+  margin-left: -40px;
+  font-size: 0.9em;
+  padding: 0px 12px 0px 0px;
   color: #757575;
   text-align: start;
   font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -230,7 +231,7 @@ li{
     margin-bottom: 16px;
     display: inline-block;
     min-width: 100px;
-    width: 35%;
+    width: 60%;
     padding-right: 12px;
     vertical-align: top;
 }
@@ -242,4 +243,15 @@ ul{
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+}
+.select-languaje{
+  height: 53px;
+  width: 137px;
+  text-indent: 0;
+    padding-right: 26px;
+    background-color: #000000;
+    background-image: none;
+    border: 1px solid #333333;
+    color: #999;
+    font-size: 16px;
 }

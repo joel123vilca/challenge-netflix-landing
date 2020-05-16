@@ -28,3 +28,4 @@ elementComputerVideo.src = device;
 
 const elementComputer = document.getElementById("computer");
 elementComputer.src = devicePile;
+
